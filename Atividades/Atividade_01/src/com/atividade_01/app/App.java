@@ -8,7 +8,7 @@ public class App {
         Scanner leia = new Scanner (System.in);
 
 //declaração de variáveis:
-        String nome, operacao;
+        String nome, operacao, calcular;
         double peso, altura, result; 
 //input - entrada de dados:
         System.out.println("Informe seu nome: ");
@@ -37,6 +37,12 @@ public class App {
                 System.out.println("O resultado do IMC é: " + result);
                 break;
         }
+
+
+        leia.nextLine();
+
+        System.out.println("Deseja fazer esse cálculo?");
+        calcular = leia.nextLine();
 
 //fecha objeto - leia
         leia.close();
