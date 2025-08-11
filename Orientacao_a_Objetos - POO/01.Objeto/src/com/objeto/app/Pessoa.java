@@ -8,6 +8,22 @@ public class Pessoa {
     public int idade;
     public Double altura;
 
+
+
+    // construtores
+    public Pessoa() {
+    }
+
+
+/*Selecionar botão direito > "CODE GENERATE FOR JAVA" > "Genrate Constructor Using All Fields"  */
+/* Função do THIS:  */
+        // construtor
+    public Pessoa(String nome, int idade, Double altura) {
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+    }
+
         // método:
     public void exibirDados(){
         System.out.println("Nome: " + this.nome);
@@ -15,5 +31,9 @@ public class Pessoa {
         System.out.println("Altura: " + this.altura + " metros");
     }
 
-
+    public String cumprimentar() {
+        return "Olá, meu nome é " + this.nome + ", tenho" + this.idade + " anos, e meço " + this.altura + " metros de altura.";
+    }
 }
+
+
