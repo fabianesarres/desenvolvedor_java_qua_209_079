@@ -15,6 +15,7 @@ public class App {
         usuario.cpf = leia.nextInt();
         System.out.println("Informe o número da conta: ");
         usuario.numeroConta = leia.nextDouble();
+        
 
 
         //output:
