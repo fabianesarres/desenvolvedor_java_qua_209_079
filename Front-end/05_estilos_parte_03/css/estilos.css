@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+form{
+    padding: 15px;
+}
+
+input, select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px 15px;
+    margin: 30px 15px;
+}
+
+
+
+.nome{
+    width: 20%;
+}
+
+.sobrenome{
+    width: 70%;
+}
+
+.telefone{
+    width: 20%;
+}
+
+.email{
+    width: 60%;
+}
+
+.genero{
+    width: 20%;
+}
+
+.cep{
+    width: 15%;
+}
+
+.cidade, .profissao{
+    width: 20%;
+}
+
+.endereco{
+    width: 45%;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    color: black;
+    background-color: greenyellow;
+    transition: 0.5s ease;
+}
