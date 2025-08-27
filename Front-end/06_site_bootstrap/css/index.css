@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#formulario{
+    padding: 50px;
+}
+
+h1{
+    padding: 50px;
+}
+
+#img_formulario{
+    display: flex;
+}
+
+#img_formulario img{
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+
